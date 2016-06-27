@@ -13,17 +13,14 @@
   ],
   "activationCommands": {
     "atom-workspace": "weex-format:format"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/walid1992/weex-format"
-  },
+  },   
+  "repository":"https://github.com/walid1992/weex-format",
   "bugs": {
     "url": "https://github.com/walid1992/weex-format/issues"
   },
   "license": "MIT",
   "author": {
-    "name": "walid",
+    "name": "walid1992",
     "email": "541280314@qq.com",
     "url": "https://github.com/walid1992"
   },
