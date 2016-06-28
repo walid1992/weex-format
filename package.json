@@ -1,7 +1,7 @@
 {
   "name": "weex-format",
   "main": "./lib/weex-format",
-  "version": "0.0.9",
+  "version": "0.1.7",
   "description": "Beautify .weex file, not suport stylus,less,scss",
   "keywords": [
     "format",
@@ -13,8 +13,8 @@
   ],
   "activationCommands": {
     "atom-workspace": "weex-format:format"
-  },   
-  "repository":"https://github.com/walid1992/weex-format",
+  },
+  "repository": "https://github.com/walid1992/weex-format",
   "bugs": {
     "url": "https://github.com/walid1992/weex-format/issues"
   },
