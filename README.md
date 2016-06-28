@@ -1,4 +1,6 @@
-#weex-format package (https://github.com/walid1992/weex-format)
+#weex-format package
+
+https://github.com/walid1992/weex-format
 
 ```bash
 apm install weex-format
@@ -25,7 +27,7 @@ See [Keymaps In-Depth](https://atom.io/docs/latest/behind-atom-keymaps-in-depth)
 For example:
 
 ```coffeescript
-'.editor':
+  '.editor':
   'ctrl-alt-b': 'atom-beautify:beautify-editor'
 ```
 
