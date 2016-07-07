@@ -2,7 +2,7 @@
   "name": "weex-format",
   "main": "./lib/weex-format",
   "version": "0.1.10",
-  "description": "Beautify .weex file, not suport stylus,less,scss",
+  "description": "alibaba Weex File Format~",
   "keywords": [
     "format",
     "weex",
@@ -14,7 +14,10 @@
   "activationCommands": {
     "atom-workspace": "weex-format:format"
   },
-  "repository": "https://github.com/walid1992/weex-format",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walid1992/weex-format.git"
+  },
   "bugs": {
     "url": "https://github.com/walid1992/weex-format/issues"
   },
@@ -28,6 +31,166 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "js-beautify": "~1.5.4"
+    "js-beautify": "~1.5.10"
+  },
+  "readme": "#weex-format package (https://github.com/walid1992/weex-format)\n\n```bash\napm install weex-format\n```\n\nOr Settings/Preferences ➔ Packages ➔ Search for `weex-format`\n\n## Language Support\n\n- [x] weex, including html, css(not stylus, less, scss) , js (es6)\n\n## Usage\n\nIt will beautify .weex file for html,css and js\n\n### Shortcut\n\nYou can also type `ctrl-alt-l` as a shortcut or click `Packages > weex-format` in the menu.\n\n#### Custom Keyboard Shortcuts\n\nSee [Keymaps In-Depth](https://atom.io/docs/latest/behind-atom-keymaps-in-depth) for more details.\n\nFor example:\n\n```coffeescript\n'.editor':\n  'ctrl-alt-b': 'atom-beautify:beautify-editor'\n```\n\n## Configuration\n\nuse js-beautify default\n\n### Simple\n\nSee [examples/simple-jsbeautifyrc/.jsbeautifyrc](https://github.com/donaldpipowitch/atom-beautify/blob/master/examples/simple-jsbeautifyrc/.jsbeautifyrc).\n\n```json\n{\n  \"indent_size\": 2,\n  \"indent_char\": \" \",\n  \"other\": \" \",\n  \"indent_level\": 0,\n  \"indent_with_tabs\": false,\n  \"preserve_newlines\": true,\n  \"max_preserve_newlines\": 2,\n  \"jslint_happy\": true,\n  \"indent_handlebars\": true\n}\n```\n\n",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/walid1992/weex-format#readme",
+  "_id": "weex-format@0.1.10",
+  "_shasum": "b902e9dc5613a92b995a99f32197353e04b99a6c",
+  "_resolved": "file:..\\d-116528-45112-10jhp4l\\package.tgz",
+  "_from": "..\\d-116528-45112-10jhp4l\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "js-beautify",
+        "version": "1.5.10",
+        "path": "node_modules\\js-beautify\\js\\index.js"
+      },
+      {
+        "name": "config-chain",
+        "version": "1.1.10",
+        "path": "node_modules\\js-beautify\\node_modules\\config-chain\\index.js"
+      },
+      {
+        "name": "ini",
+        "version": "1.3.4",
+        "path": "node_modules\\js-beautify\\node_modules\\config-chain\\node_modules\\ini\\ini.js"
+      },
+      {
+        "name": "proto-list",
+        "version": "1.2.4",
+        "path": "node_modules\\js-beautify\\node_modules\\config-chain\\node_modules\\proto-list\\proto-list.js"
+      },
+      {
+        "name": "mkdirp",
+        "version": "0.5.1",
+        "path": "node_modules\\js-beautify\\node_modules\\mkdirp\\index.js"
+      },
+      {
+        "name": "minimist",
+        "version": "0.0.8",
+        "path": "node_modules\\js-beautify\\node_modules\\mkdirp\\node_modules\\minimist\\index.js"
+      },
+      {
+        "name": "nopt",
+        "version": "3.0.6",
+        "path": "node_modules\\js-beautify\\node_modules\\nopt\\lib\\nopt.js"
+      },
+      {
+        "name": "abbrev",
+        "version": "1.0.9",
+        "path": "node_modules\\js-beautify\\node_modules\\nopt\\node_modules\\abbrev\\abbrev.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "lib\\we-beautify.js",
+        "node_modules\\js-beautify\\js\\bin\\css-beautify.js",
+        "node_modules\\js-beautify\\js\\bin\\html-beautify.js",
+        "node_modules\\js-beautify\\js\\bin\\js-beautify.js",
+        "node_modules\\js-beautify\\js\\index.js",
+        "node_modules\\js-beautify\\js\\lib\\beautify-css.js",
+        "node_modules\\js-beautify\\js\\lib\\beautify-html.js",
+        "node_modules\\js-beautify\\js\\lib\\beautify.js",
+        "node_modules\\js-beautify\\js\\lib\\cli.js",
+        "node_modules\\js-beautify\\js\\lib\\unpackers\\javascriptobfuscator_unpacker.js",
+        "node_modules\\js-beautify\\js\\lib\\unpackers\\myobfuscate_unpacker.js",
+        "node_modules\\js-beautify\\js\\lib\\unpackers\\p_a_c_k_e_r_unpacker.js",
+        "node_modules\\js-beautify\\js\\lib\\unpackers\\urlencode_unpacker.js",
+        "node_modules\\js-beautify\\node_modules\\config-chain\\index.js",
+        "node_modules\\js-beautify\\node_modules\\config-chain\\node_modules\\ini\\ini.js",
+        "node_modules\\js-beautify\\node_modules\\config-chain\\node_modules\\proto-list\\proto-list.js",
+        "node_modules\\js-beautify\\node_modules\\mkdirp\\bin\\cmd.js",
+        "node_modules\\js-beautify\\node_modules\\mkdirp\\examples\\pow.js",
+        "node_modules\\js-beautify\\node_modules\\mkdirp\\index.js",
+        "node_modules\\js-beautify\\node_modules\\mkdirp\\node_modules\\minimist\\example\\parse.js",
+        "node_modules\\js-beautify\\node_modules\\mkdirp\\node_modules\\minimist\\index.js",
+        "node_modules\\js-beautify\\node_modules\\nopt\\bin\\nopt.js",
+        "node_modules\\js-beautify\\node_modules\\nopt\\examples\\my-program.js",
+        "node_modules\\js-beautify\\node_modules\\nopt\\lib\\nopt.js",
+        "node_modules\\js-beautify\\node_modules\\nopt\\node_modules\\abbrev\\abbrev.js"
+      ],
+      ".json": [
+        "node_modules\\js-beautify\\bower.json",
+        "node_modules\\js-beautify\\js\\config\\defaults.json",
+        "node_modules\\js-beautify\\node_modules\\config-chain\\node_modules\\ini\\package.json",
+        "node_modules\\js-beautify\\node_modules\\config-chain\\node_modules\\proto-list\\package.json",
+        "node_modules\\js-beautify\\node_modules\\config-chain\\package.json",
+        "node_modules\\js-beautify\\node_modules\\mkdirp\\node_modules\\minimist\\package.json",
+        "node_modules\\js-beautify\\node_modules\\mkdirp\\package.json",
+        "node_modules\\js-beautify\\node_modules\\nopt\\node_modules\\abbrev\\package.json",
+        "node_modules\\js-beautify\\node_modules\\nopt\\package.json",
+        "node_modules\\js-beautify\\package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "keymaps",
+          "lib",
+          "menus",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "js-beautify": "~1.5.10"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\js-beautify",
+          "node_modules\\js-beautify\\js\\bin",
+          "node_modules\\js-beautify\\js\\config",
+          "node_modules\\js-beautify\\js",
+          "node_modules\\js-beautify\\js\\lib",
+          "node_modules\\js-beautify\\js\\lib\\unpackers",
+          "node_modules\\js-beautify\\js\\test",
+          "node_modules\\js-beautify\\js\\test\\resources",
+          "node_modules\\js-beautify\\test\\data",
+          "node_modules\\js-beautify\\test"
+        ],
+        "dependencies": {
+          "config-chain": "~1.1.5",
+          "mkdirp": "~0.5.0",
+          "nopt": "~3.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\js-beautify\\node_modules\\config-chain",
+          "node_modules\\js-beautify\\node_modules\\config-chain\\test"
+        ],
+        "dependencies": {
+          "proto-list": "~1.2.1",
+          "ini": "^1.3.4"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\js-beautify\\node_modules\\mkdirp\\bin",
+          "node_modules\\js-beautify\\node_modules\\mkdirp\\examples",
+          "node_modules\\js-beautify\\node_modules\\mkdirp",
+          "node_modules\\js-beautify\\node_modules\\mkdirp\\test"
+        ],
+        "dependencies": {
+          "minimist": "0.0.8"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\js-beautify\\node_modules\\nopt\\bin",
+          "node_modules\\js-beautify\\node_modules\\nopt\\examples",
+          "node_modules\\js-beautify\\node_modules\\nopt\\lib",
+          "node_modules\\js-beautify\\node_modules\\nopt",
+          "node_modules\\js-beautify\\node_modules\\nopt\\test"
+        ],
+        "dependencies": {
+          "abbrev": "1"
+        }
+      }
+    ]
   }
 }
