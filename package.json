@@ -1,8 +1,8 @@
 {
   "name": "weex-format",
   "main": "./lib/weex-format",
-  "version": "0.1.10",
-  "description": "alibaba Weex File Format~",
+  "version": "0.1.7",
+  "description": "Beautify .weex file, not suport stylus,less,scss",
   "keywords": [
     "format",
     "weex",
@@ -14,10 +14,7 @@
   "activationCommands": {
     "atom-workspace": "weex-format:format"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/walid1992/weex-format.git"
-  },
+  "repository": "https://github.com/walid1992/weex-format",
   "bugs": {
     "url": "https://github.com/walid1992/weex-format/issues"
   },
@@ -31,15 +28,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "js-beautify": "~1.5.10"
+    "js-beautify": "~1.5.4"
   },
-  "readme": "#weex-format package (https://github.com/walid1992/weex-format)\n\n```bash\napm install weex-format\n```\n\nOr Settings/Preferences ➔ Packages ➔ Search for `weex-format`\n\n## Language Support\n\n- [x] weex, including html, css(not stylus, less, scss) , js (es6)\n\n## Usage\n\nIt will beautify .weex file for html,css and js\n\n### Shortcut\n\nYou can also type `ctrl-alt-l` as a shortcut or click `Packages > weex-format` in the menu.\n\n#### Custom Keyboard Shortcuts\n\nSee [Keymaps In-Depth](https://atom.io/docs/latest/behind-atom-keymaps-in-depth) for more details.\n\nFor example:\n\n```coffeescript\n'.editor':\n  'ctrl-alt-b': 'atom-beautify:beautify-editor'\n```\n\n## Configuration\n\nuse js-beautify default\n\n### Simple\n\nSee [examples/simple-jsbeautifyrc/.jsbeautifyrc](https://github.com/donaldpipowitch/atom-beautify/blob/master/examples/simple-jsbeautifyrc/.jsbeautifyrc).\n\n```json\n{\n  \"indent_size\": 2,\n  \"indent_char\": \" \",\n  \"other\": \" \",\n  \"indent_level\": 0,\n  \"indent_with_tabs\": false,\n  \"preserve_newlines\": true,\n  \"max_preserve_newlines\": 2,\n  \"jslint_happy\": true,\n  \"indent_handlebars\": true\n}\n```\n\n",
-  "readmeFilename": "README.md",
-  "homepage": "https://github.com/walid1992/weex-format#readme",
-  "_id": "weex-format@0.1.10",
-  "_shasum": "b902e9dc5613a92b995a99f32197353e04b99a6c",
-  "_resolved": "file:..\\d-116528-45112-10jhp4l\\package.tgz",
-  "_from": "..\\d-116528-45112-10jhp4l\\package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
