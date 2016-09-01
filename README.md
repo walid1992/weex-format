@@ -1,7 +1,8 @@
 #[weex-format 工具](https://github.com/walid1992/weex-format)
 
+install
+
 ```
-bash
 apm install weex-format
 ```
 
