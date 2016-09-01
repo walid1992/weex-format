@@ -1,4 +1,4 @@
-#[weex-format工具](https://github.com/walid1992/weex-format)
+#[weex-format 工具](https://github.com/walid1992/weex-format)
 
 ```
 bash
