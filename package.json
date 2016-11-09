@@ -1,7 +1,7 @@
 {
   "name": "weex-format",
   "main": "./lib/weex-format",
-  "version": "0.1.23",
+  "version": "1.0.1",
   "description": "Beautify .weex file, not suport stylus,less,scss",
   "keywords": [
     "format",
